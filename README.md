@@ -32,3 +32,7 @@ Instalation/Configuration
 you can do this by creating a project for your application (search on google on how to do that) 
  - after you have done that, you must set some constants in file *configs/cnf.php*
  - enjoy it!
+
+Screenshots
+-------------------
+![contact list](https://raw.github.com/z3ppelin/BogdanYM/images/Screenshots/BogdanYM_PS_3.png);
