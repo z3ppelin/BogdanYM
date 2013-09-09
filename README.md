@@ -35,5 +35,5 @@ you can do this by creating a project for your application (search on google on 
 
 Screenshots
 -------------------
-![login window](images/Screenshots/BogdanYM_PS_1.png);
-![contact list](images/Screenshots/BogdanYM_PS_2.png);
+![login window](images/Screenshots/BogdanYM_PS_1.jpg);
+![contact list](images/Screenshots/BogdanYM_PS_2.jpg);
