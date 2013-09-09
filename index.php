@@ -6,7 +6,7 @@
  * @since       2013.08.01
  * @version     1.0
  * @link        GitHub  https://github.com/z3ppelin/BogdanYM.git
- * @licence     The MIT License (http://opensource.org/licenses/MIT); see LICENCE.txt
+ * @licence     The BSD License (http://opensource.org/licenses/BSD-3-Clause); see LICENCE.txt
  */
 ?>
 <?php
@@ -17,7 +17,7 @@ session_start();
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>sdasda</title>
+        <title>Bogdan YM</title>
         <link rel="stylesheet" href="js/jQuery/themes/base/minified/jquery-ui.min.css" />
         <link rel="stylesheet" href="css/bogdanym.css" />
         <script type="text/javascript" src="js/jQuery/jquery-1.10.2.min.js"></script>

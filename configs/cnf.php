@@ -6,7 +6,7 @@
  * @since       2013.08.01
  * @version     1.0
  * @link        GitHub  https://github.com/z3ppelin/BogdanYM.git
- * @licence     The MIT License (http://opensource.org/licenses/MIT); see LICENCE.txt
+ * @licence     The BSD License (http://opensource.org/licenses/BSD-3-Clause); see LICENCE.txt
  */
 
 //TODO put your app version here
