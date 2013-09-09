@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Unit testing configuratin file.
+ * @author      Bogdan Constantinescu <bog_con@yahoo.com>
+ * @since       2013.08.01
+ * @version     1.0
+ * @link        GitHub  https://github.com/z3ppelin/BogdanYM.git
+ * @licence     The MIT License (http://opensource.org/licenses/MIT); see LICENCE.txt
+ */
+-->
+
+<phpunit bootstrap="Bootstrap.php" colors="true">
+    <testsuites>
+        <testsuite name="testclasses">
+            <directory>./classes</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

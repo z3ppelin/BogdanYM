@@ -1,0 +1,53 @@
+/**
+ * CSS File for Bogdan YM.
+ *
+ * @author      Bogdan Constantinescu <bog_con@yahoo.com>
+ * @since       2013.08.01
+ * @version     1.0
+ * @link        GitHub https://github.com/z3ppelin/BogdanYM.git
+ * @licence     The MIT License (http://opensource.org/licenses/MIT); see LICENCE.txt
+ */
+
+body { font-size:66.5%; background-color: #000; font-family: Arial; padding: 0; margin: 0; }
+input.text { width:95%; padding: .4em; }
+fieldset { padding:0; border:0; margin-top:25px; }
+h1 { font-size: 1.2em; margin: .6em 0; }
+.ui-dialog .ui-state-error { padding: .3em; }
+.validateTips { border: 1px solid transparent; padding: 0.3em; }
+.login-form { text-align: center; }
+.login-form form { text-align: left; }
+.chatwindow { display: none; width: 600px; height: 400px; z-index: 1000; }
+span.error { color: red; font-size: 85%; }
+.contacts-list { list-style-type: none; margin: 0; padding: 0; border-top: 1px solid #CCC; overflow: auto; height: 350px; }
+.contacts-list ul { list-style-type: none; margin: 0; padding: 0; }
+.contacts-list li { clear: both; }
+.groupname { padding: 5px; font-weight: bold; background: #EFEFEF; cursor: default; border-top: 1px solid #FFF; }
+.ycontact { padding: 5px 5px 5px 0; }
+.avatar { float: right; vertical-align: middle; width: 32px; height: 32px; }
+.statusimg { float: left; margin: 7px 5px 0 0; }
+.text { float: left; overflow: hidden; width: 70%; padding-top: 10px; height: 25px;}
+.sampleChatWindow { display: none; }
+.offline { display: none; }
+.statusmessage { font-size: 85%; }
+.writeMessage { width: 100%; height: 30px; }
+.messagesContainer { height: 290px; overflow-y: scroll; font-size: 85%; }
+.ui-tab-close { float: left; margin: 0.4em 0.2em 0 0; cursor: pointer; background-position: -80px -128px; }
+.ui-window-close { float: right; margin: 0.4em 0.2em 0 0; cursor: pointer; background-position: -80px -128px; }
+.signInAjaxLoader { vertical-align: middle; margin-right: 5px; }
+.footer { color: #FFF; position: fixed; bottom: 10px; left: 20px; background: #000; padding: 5px; }
+.italic { font-style: italic; }
+.ymessenger { background: #FFF; width: 250px; height: 500px; padding: 5px; top: 25px; left: 20px;  display: none; }
+.name { height: 10px; }
+.ui-widget-header { margin: 0; padding: 5px; }
+.buttons { position: absolute; bottom: 10px; }
+.notifications { color: #FFF; font-weight: bold; position: absolute; bottom: -14px; right: 0; }
+.notif { padding: 5px; }
+.info { padding: 5px 0; }
+.myavatar { vertical-align: middle; float: right; }
+.online-option { background-repeat: no-repeat; background-position: 0px 5px;padding: 5px 0 5px 30px; background-image: url('../images/online.png'); }
+.busy-option { background-repeat: no-repeat; background-position: 0px 5px;padding: 5px 0 5px 30px; background-image: url('../images/busy.png'); }
+.invisible-option { background-repeat: no-repeat; background-position: 0px 5px;padding: 5px 0 5px 30px; background-image: url('../images/offline.png'); }
+.idle-option { background-repeat: no-repeat; background-position: 0px 5px;padding: 5px 0 5px 30px; background-image: url('../images/idle.png'); }
+.state-select { border: 1px solid #CCC; height: 21px; width: 190px; font-size: 97%; }
+.state-message { border: 1px solid #CCC;  width: 190px; font-size: 97%; margin-top: 3px; }
+.login-form input[type=text], .login-form input[type=password] { width: 98%; padding: 4px; }
