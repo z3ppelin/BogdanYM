@@ -35,4 +35,5 @@ you can do this by creating a project for your application (search on google on 
 
 Screenshots
 -------------------
-![contact list](https://raw.github.com/z3ppelin/BogdanYM/images/Screenshots/BogdanYM_PS_3.png);
+![login window](https://raw.github.com/z3ppelin/BogdanYM/images/Screenshots/BogdanYM_PS_1.png);
+![contact list](https://raw.github.com/z3ppelin/BogdanYM/images/Screenshots/BogdanYM_PS_2.png);
