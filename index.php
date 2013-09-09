@@ -31,7 +31,7 @@ session_start();
             <form>
                 <fieldset>
                     <label for="username">Username: *</label><br />
-                    <input type="text" name="username" id="username" value=""  /><br /><br />
+                    <input type="text" name="username" id="username" value="<?php echo isset($_COOKIE['ym-remember-me']) ? htmlspecialchars($_COOKIE['ym-remember-me']) : ''; ?>"  /><br /><br />
                     <label for="password">Password: *</label><br />
                     <input type="password" name="password" id="password" value="" /><br /><br />
                     <input type="checkbox" name="remember-me" id="remember-me" checked="checked" />

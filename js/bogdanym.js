@@ -232,8 +232,8 @@ function logIn()
     var blnFormValid   = true;
     var objUsername    = jQuery('#username');
     var objPassword    = jQuery('#password');
-    var intRememberMe  = jQuery('#remember-me').attr('checked') === 'checked' ? 1 : 0;
-    var intInvisible   = jQuery('#invisible').attr('checked') === 'checked' ? 1 : 0;
+    var intRememberMe  = jQuery('#remember-me').is(':checked') ? 1 : 0;
+    var intInvisible   = jQuery('#invisible').is(':checked') ? 1 : 0;
 
     objUsername.removeClass('ui-state-error');
     objPassword.removeClass('ui-state-error');
@@ -274,11 +274,8 @@ function logIn()
             if ('success' === objResponse.status) {
                 jQuery('#login-form').dialog('close');
                 jQuery('#ymessenger').fadeIn(2000);
-                
-                if (!intRememberMe) {
-                    objUsername.val('');
-                    objPassword.val('');
-                }
+                objUsername.val('');
+                objPassword.val('');
                 
                 populateContacts(objResponse.response['contacts']);
                 

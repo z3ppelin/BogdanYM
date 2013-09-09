@@ -112,6 +112,14 @@ if (isset($_POST['ajax_action'])) {
                             $arrAjaxResponse[$groupName][] = $buddy;
                         }
                     }
+                    
+                    /* set remember-me cookie */
+                    if (isset($_POST['remember_me']) && $_POST['remember_me'] == 1) {
+                        setcookie('ym-remember-me', trim($_POST['username']), time() + 3600 * 24 * 30);
+                    } else {
+                        setcookie('ym-remember-me', false, time() - 3600);
+                    }
+                    
                     /* save local session */
                     $_SESSION['username'] = trim($_POST['username']);
                     $_SESSION['pwd'] = trim($_POST['password']);
