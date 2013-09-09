@@ -21,7 +21,8 @@ Unit testing
 --------------------
  - used PHPUnit 3.7.20 for unit testing.
 
-Yahoo API documentation:
+Yahoo API documentation
+--------------------
  - http://developer.yahoo.com/messenger/guide/ch02.html
 
 Instalation/Configuration
@@ -30,3 +31,4 @@ Instalation/Configuration
  - in order to access messenger data in your application, you ’ll need to get a Yahoo! API key and configure it to use Yahoo! Messenger; 
 you can do this by creating a project for your application (search on google on how to do that) 
  - after you have done that, you must set some constants in file *configs/cnf.php*
+ - enjoy it!
